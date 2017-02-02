@@ -1,0 +1,23 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "Miniproject for Front-end development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingibjorghil/miniproject.git"
+  },
+  "author": "Ingibjorg Hilmarsdottir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingibjorghil/miniproject/issues"
+  },
+  "homepage": "https://github.com/ingibjorghil/miniproject#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
+  }
+}
