@@ -1,0 +1,67 @@
+body {
+	font-family: $font-main;
+	font-size: 14px;
+}
+
+/*
+	Header Nav
+*/
+.top-header {
+	margin: 0;
+	padding: 28px 0;
+	border-bottom: 1px solid #c7c7c7;
+	color: $medium-grey;
+	display: flex;
+	align-items: center;
+}
+.header-logo {
+	padding: 0;
+}
+.top-info {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	p {
+		margin: 0;
+
+	}
+}
+.top-item {
+	display: flex;
+	margin: 8px 20px 8px 0;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.basket {
+	background-color: $extralight-grey;
+	padding: 8px 20px;
+	letter-spacing: 0.07em;
+}
+#top-nav {
+	color: $medium-grey;
+	ul {
+		list-style-type: none;
+		padding: 0;
+		li {
+			float: left;
+			margin-right: 60px;
+		}
+	}
+}
+.double-border {
+	border-bottom: 7px solid $primary-red;
+	position: relative;
+	&:before {
+		position: absolute;
+		content: " ";
+		border-bottom: 2px solid $primary-red;
+		bottom: -11px;
+		width: 100%;
+	}
+}
+
+/*
+	Footer
+*/

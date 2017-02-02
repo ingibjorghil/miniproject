@@ -1,0 +1,32 @@
+/*
+	Fonts
+*/
+
+p {
+	font-family: $font-main;
+}
+h1, h2, h3, h4, h5 {
+	font-family: $font-headline;
+	font-weight: 400;
+}
+
+span  {
+	font-family: $font-main;
+}
+
+button {
+	background-color: $primary-red;
+	color: $white-color;
+	border: 0;
+	font-family: $font-main;
+	letter-spacing: 0.07em;
+	padding: 15px 20px;
+	outline-style: none;
+	&:focus {
+		box-shadow: 2px 2px 4px rgba( $extralight-grey, .5 );
+	}
+}
+
+.no-padding {
+	padding: 0;
+}

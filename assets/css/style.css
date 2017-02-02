@@ -1,0 +1,133 @@
+/* 
+	Color Variables
+*/
+/*
+	Fonts
+*/
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 14px; }
+
+/*
+	Header Nav
+*/
+.top-header {
+  margin: 0;
+  padding: 28px 0;
+  border-bottom: 1px solid #c7c7c7;
+  color: #7e7f84;
+  display: flex;
+  align-items: center; }
+
+.header-logo {
+  padding: 0; }
+
+.top-info {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .top-info p {
+    margin: 0; }
+
+.top-item {
+  display: flex;
+  margin: 8px 20px 8px 0; }
+  .top-item:last-child {
+    margin-right: 0; }
+
+.basket {
+  background-color: #ededed;
+  padding: 8px 20px;
+  letter-spacing: 0.07em; }
+
+#top-nav {
+  color: #7e7f84; }
+  #top-nav ul {
+    list-style-type: none;
+    padding: 0; }
+    #top-nav ul li {
+      float: left;
+      margin-right: 60px; }
+
+.double-border {
+  border-bottom: 7px solid #f45a40;
+  position: relative; }
+  .double-border:before {
+    position: absolute;
+    content: " ";
+    border-bottom: 2px solid #f45a40;
+    bottom: -11px;
+    width: 100%; }
+
+/*
+	Footer
+*/
+/*
+	Fonts
+*/
+p {
+  font-family: "Arial", sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400; }
+
+span {
+  font-family: "Arial", sans-serif; }
+
+button {
+  background-color: #f45a40;
+  color: #fff;
+  border: 0;
+  font-family: "Arial", sans-serif;
+  letter-spacing: 0.07em;
+  padding: 15px 20px;
+  outline-style: none; }
+  button:focus {
+    box-shadow: 2px 2px 4px rgba(237, 237, 237, 0.5); }
+
+.no-padding {
+  padding: 0; }
+
+/*
+	Frontpage
+*/
+.front-img {
+  background-image: url("../img/image.jpg");
+  height: 658px;
+  position: relative; }
+
+.textbox-back {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 297px;
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.super-textbox {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translatey(-50%);
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .super-textbox h1 {
+    margin: 0;
+    font-size: 60px;
+    line-height: 64px; }
+  .super-textbox h3 {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 20px; }
+
+.img-dots {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translatex(-50%); }
+  .img-dots img {
+    height: 14px; }
