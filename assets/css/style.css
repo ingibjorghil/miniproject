@@ -59,11 +59,15 @@ body {
     content: " ";
     border-bottom: 2px solid #f45a40;
     bottom: -11px;
-    width: 100%; }
+    width: 100%;
+    z-index: 3; }
 
 /*
 	Footer
 */
+footer {
+  background-color: #2a2d34; }
+
 /*
 	Fonts
 */
@@ -97,7 +101,8 @@ button {
 .front-img {
   background-image: url("../img/image.jpg");
   height: 658px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 90px; }
 
 .textbox-back {
   background-color: rgba(0, 0, 0, 0.6);
@@ -131,3 +136,7 @@ button {
   transform: translatex(-50%); }
   .img-dots img {
     height: 14px; }
+
+.product-wrap h3 {
+  font-size: 22px;
+  color: #f45a40; }

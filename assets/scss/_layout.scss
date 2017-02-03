@@ -59,9 +59,13 @@ body {
 		border-bottom: 2px solid $primary-red;
 		bottom: -11px;
 		width: 100%;
+		z-index: 3;
 	}
 }
 
 /*
 	Footer
 */
+footer {
+	background-color: $stone-grey;
+}

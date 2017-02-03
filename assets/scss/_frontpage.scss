@@ -5,6 +5,7 @@
 	background-image: url('../img/image.jpg');
 	height: 658px;
 	position: relative;
+	margin-bottom: 90px;
 }
 .textbox-back {
 	background-color: rgba( #000, .6 );
@@ -41,5 +42,11 @@
 	transform: translatex(-50%);
 	img {
 		height: 14px;
+	}
+}
+.product-wrap {
+	h3 {
+		font-size: 22px;
+		color: $primary-red;
 	}
 }
