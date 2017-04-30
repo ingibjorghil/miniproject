@@ -1,2 +1,2 @@
 # miniproject
-Miniproject for front-end development 
+HTML vershion of a miniproject for front-end development 
